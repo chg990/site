@@ -43,7 +43,7 @@
   --space-xxl: 48px;
   --space-section: 80px;
 
-  /* Radius Scale (DESIGN.md) */
+  /* Radius Scale */
   --radius-xs: 4px;
   --radius-sm: 6px;
   --radius-md: 8px;
@@ -120,9 +120,7 @@ a {
   color: inherit;
 }
 
-/* ========================================
-   Preloader
-   ======================================== */
+/* Preloader */
 .preloader {
   position: fixed;
   inset: 0;
@@ -160,9 +158,7 @@ a {
   text-transform: uppercase;
 }
 
-/* ========================================
-   Top Navigation (64px Cursor Style)
-   ======================================== */
+/* Top Navigation */
 .navbar {
   position: fixed;
   top: 0;
@@ -215,9 +211,7 @@ a {
   gap: 12px;
 }
 
-/* ========================================
-   Buttons System
-   ======================================== */
+/* Buttons System */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -266,9 +260,7 @@ a {
   background-color: #3b3930;
 }
 
-/* ========================================
-   Hero Band Section (Centered Cursor Layout)
-   ======================================== */
+/* Hero Band Section */
 .hero-band {
   padding: 120px clamp(20px, 4vw, 48px) 80px;
   max-width: 1200px;
@@ -300,12 +292,6 @@ a {
   margin-bottom: 24px;
 }
 
-.hero-title .highlight {
-  color: var(--ink);
-  font-weight: 500;
-  border-bottom: 2px solid var(--hairline-strong);
-}
-
 .hero-subtitle {
   font-size: clamp(16px, 2vw, 18px);
   color: var(--body);
@@ -323,9 +309,7 @@ a {
   flex-wrap: wrap;
 }
 
-/* ========================================
-   IDE Mockup Card Component (Multi-pane Cursor IDE)
-   ======================================== */
+/* IDE Mockup Card */
 .ide-mockup-card {
   background-color: var(--surface-card);
   border: 1px solid var(--hairline-strong);
@@ -435,7 +419,6 @@ a {
 .code-content .comment { color: var(--muted-soft); font-style: italic; }
 .code-content .function { color: var(--ink); font-weight: 500; }
 
-/* Right Cursor AI Chat Pane */
 .ide-chat-pane {
   background-color: var(--canvas-soft);
   border-left: 1px solid var(--hairline);
@@ -488,9 +471,7 @@ a {
   line-height: 1.5;
 }
 
-/* ========================================
-   Section Commons
-   ======================================== */
+/* Section Commons */
 .section {
   padding: var(--space-section) clamp(20px, 4vw, 48px);
   border-top: 1px solid var(--hairline);
@@ -529,9 +510,7 @@ a {
   line-height: 1.6;
 }
 
-/* ========================================
-   About Section
-   ======================================== */
+/* About Section */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -617,9 +596,7 @@ a {
   margin-top: 4px;
 }
 
-/* ========================================
-   Interests Section Cards
-   ======================================== */
+/* Interests Section Cards */
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -686,9 +663,7 @@ a {
   color: var(--muted);
 }
 
-/* ========================================
-   Study / AI Major Section
-   ======================================== */
+/* Study Section */
 .study-card-wide {
   background-color: var(--surface-card);
   border: 1px solid var(--hairline);
@@ -751,9 +726,7 @@ a {
   border-radius: var(--radius-md);
 }
 
-/* ========================================
-   Editorial Quote CTA Band
-   ======================================== */
+/* CTA Band */
 .cta-band {
   background-color: var(--canvas);
   border-top: 1px solid var(--hairline);
@@ -771,15 +744,7 @@ a {
   line-height: 1.3;
 }
 
-.cta-title em {
-  font-style: normal;
-  color: var(--ink);
-  font-weight: 600;
-}
-
-/* ========================================
-   Footer
-   ======================================== */
+/* Footer */
 .footer {
   background-color: var(--canvas);
   border-top: 1px solid var(--hairline);
@@ -820,9 +785,7 @@ a {
   color: var(--ink);
 }
 
-/* ========================================
-   Responsive Behavior (DESIGN.md Spec)
-   ======================================== */
+/* Responsive Behavior */
 @media (max-width: 1024px) {
   .ide-body {
     grid-template-columns: 180px 1fr;

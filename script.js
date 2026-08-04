@@ -11,8 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 800);
   }
 
-
-
   // Active Nav Links on Scroll
   const navLinks = document.querySelectorAll('.nav-links a');
   const sections = document.querySelectorAll('section');
